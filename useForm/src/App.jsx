@@ -99,7 +99,7 @@ function App() {
                 id="password"
                 placeholder="password"
                 {...register("password", {
-                  required: true,
+                  required: "Do not keep input field empty",
                   minLength: {
                     value: 4,
                     message: "Password must be more than 4 characters",
